@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/about.css">
     <title>eliteshoppy</title>
 
     </head>
@@ -35,10 +37,10 @@
                     <div class="row">
 
 
-                        <div class="col-md-3 col-sm-6 col-6 intop">
+                        <div class="col-md-3 col-sm-6  intop">
 
                             <a data-toggle="modal" data-target="#exampleModal" id="myInput">
-                                <i class="fas fa-unlock icontop"></i>sign in
+                                <i class="fas fa-unlock icon-top"></i>sign in
                             </a>
 
                         </div>
@@ -46,19 +48,19 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="exampleModalLabel"><span>SIGN IN</span> NOW</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                                        <h5 class="modal-title" id="exampleModalLabel"><span>SIGN IN</span> NOW</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                     </div>
                                     <div class="row modal-body">
                                         <div class="col-md-6 col-12">
                                             <form action="" method="post">
                                                 <label for="inp-sign-name" class="inp">
-                                                    <input type="text" id="inp_sign_name" placeholder="&nbsp:" required>
+                                                    <input type="text" id="inp_sign_name" placeholder="&nbsp;" required>
                                                     <span class="label">Name</span>
                                                     <span class="border"></span>
                                                 </label>
                                                 <label for="inp-sign-email" class="inp">
-                                                    <input type="text" id="inp_sign_email" placeholder="&nbsp:" required>
+                                                    <input type="text" id="inp_sign_email" placeholder="&nbsp;" required>
                                                     <span class="label">Email</span>
                                                     <span class="border"></span>
                                                 </label>
@@ -66,7 +68,7 @@
                                             </form>
                                             <!--icon start-->
                                             <div class="social-icons">
-                                                <ul class="social-nav modal-3d-0 footer-social w3_agile_social">
+                                                <ul class="social-nav model-3d-0 footer-social w3_agile_social">
                                                     <li>
                                                         <a href="#" class="facebook">
                                                         <div class="front"><i class="fab fa-facebook-f" aria-hidden="true"></i></div>
@@ -87,8 +89,8 @@
                                                     </li>
                                                     <li>
                                                         <a href="#" class="pinterest">
-                                                            <div class="front"><i class="fab fa-linkdin-in" aria-hidden="true"></i></div>
-                                                            <div class="back"><i class="fab fa-linkdin-in" aria-hidden="true"></i></div>
+                                                            <div class="front"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
+                                                            <div class="back"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -106,7 +108,7 @@
                         </div>
 
                         <div class="col-md-3 col-sm-6 col-6 intop">
-                            <a data-toggle="modal" data-target="#exampleModall" id=myInput><i class="fas-fa-pen-square icon-top"></i>Sign Up</a>
+                            <a data-toggle="modal" data-target="#exampleModall" id=myInput><i class="fas fa-pen-square icon-top"></i>Sign Up</a>
                         </div>
                         
                         <div class="modal fade" id="exampleModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -115,26 +117,26 @@
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel"><span>SIGN UP</span>NOW</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times:</span>
+                                            <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="row modal-body">
                                         <div class="col-md-6 col-12">
                                             <form action="" method="post">
                                                 <label for="inp_name" class="inp">
-                                                    <input type="text" id="inp_name" placeholder="&nbsp" required>
+                                                    <input type="text" id="inp_name" placeholder="&nbsp;" required>
                                                     <span class="label">Name</span>
                                                     <span class="border"></span>
                                                     <span id="name_error"></span>
                                                 </label>
                                                 <label for="inp_email" class="inp">
-                                                    <input type="email" id="inp_email" placeholder="&nbsp" required>
+                                                    <input type="email" id="inp_email" placeholder="&nbsp;" required>
                                                     <span class="label">Email</span>
                                                     <span class="border"></span>
                                                     <span id="email_error"></span>
                                                 </label>
                                                 <label for="inp_pass" class="inp">
-                                                    <input type="password" id="inp_pass" placeholder="&nbsp" required>
+                                                    <input type="password" id="inp_pass" placeholder="&nbsp;" required>
                                                     <span class="label">Password</span>
                                                     <span class="border"></span>
                                                     <span id="password_error"></span>
@@ -169,8 +171,8 @@
                                                     </li>
                                                     <li>
                                                         <a href="#" class="pinterest">
-                                                            <div class="front"><i class="fab fa-linkdin-in" aria-hidden="true"></i></div>
-                                                            <div class="back"><i class="fab fa-linkdin-in" aria-hidden="true"></i></div>
+                                                            <div class="front"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
+                                                            <div class="back"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -212,22 +214,22 @@
             <div class="button">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-12 col-lg-4 col-sm-12 my-2">
+                        <div class="col-md-12 col-12 col-lg-4 col-sm-12 my-2">
                             <form action="#" class="formes" method="post">
                                 <input type="search" class="search" name="search" placeholder="search here.." required>
-                                <button class="icon-serch"><i class="fas fa-search"></i></button>
+                                <button class="icon-search"><i class="fas fa-search"></i></button>
                             </form>
                         </div>
-                        <div class="col-md-6 col-12 col-lg-4 colsm-12 my-2">
+                        <div class="col-md-6 col-12 col-lg-4 col-sm-12 my-2">
                             <h1 class="logo">
                                 <a href="#">
                                     <span class="logoE">E</span>lite shoppy
-                                    <i class="fas fa-shopping-bag logobag"></i>
+                                    <i class="fas fa-shopping-bag logoBag"></i>
                                 </a>
                             </h1>
                         </div>
                         <div class="col-md-6 col-12 col-lg-4 col-sm-12 my-2 d-flex justify-content-around py-md-3 py-lg-1">
-                            <ul class="social-nav-model-3d-0 footer-social w3-agile-social">
+                            <ul class="social-nav model-3d-0 footer-social w3_agile_social">
                                 <li class="share">Share On : </li>
                                 <li>
                                     <a href="#" class="facebook">
@@ -249,8 +251,8 @@
                                 </li>
                                 <li>
                                     <a href="#" class="pinterest">
-                                        <div class="front"><i class="fab fa-linkdin-in" aria-hidden="true"></i></div>
-                                        <div class="back"><i class="fab fa-linkdin-in" aria-hidden="true"></i></div>
+                                        <div class="front"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
+                                        <div class="back"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
                                     </a>
                                 </li>
                             </ul>
@@ -386,4 +388,102 @@
 
             <!------header-nav-end---------->
         </header>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <script src="js/v_script.js"></script>
+        <script src="js/elx.js"></script>
+    
+        <script src="js/scroll.js"></script>
+    
+        <script src="js/variables.js"></script>
+        <script src="js/database.js"></script>
+        <script src="js/myProducts.js"></script>
+    
+        <script src="js/user.js"></script>
+        <script src="js/dom.js"></script>
+        <script src="js/database_sign_in_up.js"></script>
+    
+        <script>
+            var dom = null;
+            var db = null;
+            var user_r = null;
+    
+            // ----------- DOMContentLoaded scripts and methods -------------//
+            document.addEventListener("DOMContentLoaded", function () {
+                // ------- sign in and sign up js ---------//
+                dom = new DOM();
+                db = new Database()
+    
+                document.getElementById("sign_up").addEventListener("click", function (e) {
+                    e.preventDefault();
+    
+                    user_r = new User(dom.getValue("inp_name"),
+                        dom.getValue("inp_email"),
+                        dom.getValue("inp_pass"),
+                        dom.getValue("inp_confirm_pass"));
+    
+                    // -------checking for registration ---------- //
+    
+                    let find = false;
+                    if (dom.validate(user_r) == true) {
+                        for (let u in db.users()) {
+                            if (db.users()[u].email == user_r.email) {
+                                find = true;
+                                break;
+                            } else {
+                                find = false;
+                            }
+                        }
+                        if (find == true) {
+                            alert("this email is used try another email");
+                        } else if (find == false) {
+                            db.addingUser(user_r);
+                            alert("registration successful");
+                        }
+                    }
+    
+                    // -------checking for registration ended ---------- //
+                });
+    
+                // -------checking login ---------- //
+    
+                document.getElementById("sign_in").addEventListener("click", function (e) {
+                    e.preventDefault();
+                    let log_name = dom.getValue("inp_sign_name");
+                    let log_email = dom.getValue("inp_sign_email");
+    
+                    let check = false;
+                    for (let l in db.users()) {
+                        if (db.users()[l].name_surname == log_name && db.users()[l].email == log_email) {
+                            check = true;
+                            break;
+                        } else {
+                            check = false;
+                        }
+                    };
+                    if (check == true) {
+                        alert("sign in is successful");
+                    } else if (find = false) {
+                        alert("name or email is wrong");
+                    }
+    
+                    // -------checking login ended---------- //
+                });
+    
+                // -------- product methods --------- // 
+                productPlacement(mensWear, ".mensWearPlace");
+                productPlacement(womensWear, ".womensWearPlace");
+                productPlacement(bags, ".bagsPlace");
+                productPlacement(footwear, ".footwearPlace");
+                // -------- product methods --------- // 
+            });
+        </script>
+
+
     </body>
